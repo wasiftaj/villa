@@ -104,7 +104,7 @@ a {
     cursor: pointer;
     transition: color 0.3s ease;
 }
-#active {
+#activenav {
     color: #f35b2d;
 }
 .navmenu .nav ul li:hover {
@@ -387,11 +387,12 @@ a {
     flex-direction: column;
     height: 115vh;
     width: 99vw;
+    background-color: #fafafa;
 }
 .space .uppersp {
     display: flex;
     flex-direction: row;
-    
+    margin-top: 50px;
 }
 .space .uppersp .upperspace-txt {
     display: flex;
@@ -441,7 +442,215 @@ a {
     color: white;
 
 }
-.space .lowersp {
+.lowersp {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.spacecard {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+}
+.spacecard .innercard {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px #aba9a8;
+    width: 270px;
+    border-radius: 15px;
+
+}
+.spacecard .innercard .spbox {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+}
+.spacecard .innercard .spbox p {
+    font-family: "poppins", sans-serif;
+    font-size: small;
+    color: #aba9a8;
+    font-weight: 500;
+}
+.spacecard .innercard .spbox h3 {
+    font-family: "poppins", sans-serif;
+    font-size: medium;
+    margin-left: 50px;
+}
+.spaceimage {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+.spacetext {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: flex-start;
+}
+.spacetext h3 {
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+.spacetext p {
+    font-family: "poppins", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #4a4a4a;
+    margin-top: 30px;
+}
+.scbtn {
+    margin-top: 30px;
+}
+.scbtn button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 22px;
+    width: 200px;
+    font-weight: 500;
+}
+.scbtn i {
+    font-size: medium;
+    padding: 15px;
+    margin-right: 10px;
+    background-color: #f35b2d;
+    border-radius: 50%;
+    margin-left: -50px;
+}
+
+
+
+.contactsection {
+    height: 130vh;
+}
+.contactbg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(media/contact-bg.jpg);
+    width: 99vw;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.contactbg .contactp {
+    color: #f35b2d;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 8px;
+    border-left: 4px solid #f35b2d;
+    margin-top: 60px;
+    font-size: small;
+}
+.contactbg h1 {
+    color: white;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+.contactbg .innercontact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+    margin-top: 80px;
+}
+.innercontact .map iframe {
+    border-radius: 15px;
+}
+
+.innermap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inner {
+    display: flex;
+    justify-content: center;
+    padding: 35px 50px;
+    border-radius: 15px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px #c5c4c3;
+
+}
+.inner div {
+    margin-left: 30px;
+
+}
+.inner i {
+    font-size: 40px;
+    color: #f35b2d;
+}
+
+
+
+
+
+.innercontact .form {
+    width: 350px;
+    display: flex;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #c5c4c3;
+    padding: 30px;
+}
+.innercontact .form p {
+    color: #3a3a3a;
+    font-family: "poppins", sans-serif;
+    font-size: small;
+    font-weight: 400;
+    padding-top: 25px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.innercontact .form input {
+    width: 280px;
+    height: 40px;
+    border: none;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    margin-left: 17px;
+}
+.form input::placeholder {
+    padding-left: 20px;
+}
+.form textarea {
+    height: 150px;
+    width: 280px;
+    border: none;
+    margin-left: 12px;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+}
+.form button {
+    background-color: black;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 17px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    margin-left: 12px;
+    margin-top: 15px;
+}
+
+footer {
+    width: 99vw;
+    height: 50px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    color: black;
+    font-family: "poppins", sans-serif;
 }
