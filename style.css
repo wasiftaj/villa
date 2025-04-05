@@ -281,3 +281,98 @@ a {
 .infotable .box .infotxt {
     margin-left: 20px;
 }
+
+.videosection {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 55px;
+}
+.videobg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 98vw;
+    height: 70vh;
+    background-image: url(media/video-bg.jpg);
+}
+
+.videobg p {
+    color: #f35b2d;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    border-left: 5px solid #f35b2d;
+    padding-left: 6px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.videobg h2 {
+    color: white;
+    font-family: "poppins", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+}
+.videobg img {
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.videobg a i {
+    position: relative;
+    top: -250px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: #dd8d74 0px 0px 5px 15px;
+    font-size: larger;
+    color: #f35b2d;
+}
+
+
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 80vw;
+    margin: 0 auto;
+}
+.stat .statb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 80px;
+    background-color: #ffeee9;
+    border-radius: 10px;
+}
+.stat .statb h1 {
+    font-family: "poppins", sans-serif;
+    color: #f35b2d;
+    font-size: 40px;
+    margin-right: 25px;
+    font-weight: 700
+}
+.stat .statb p {
+    text-align: left;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: "poppins", sans-serif;
+}
+.counter {
+    background-color: #f35b2d;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: -8%;
+    top: -13%;
+}
