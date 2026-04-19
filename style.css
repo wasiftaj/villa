@@ -654,3 +654,254 @@ footer p {
     color: black;
     font-family: "poppins", sans-serif;
 }
+
+
+@media (max-width: 768px) {
+
+    /* Topbar */
+    .topbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        align-items: center;
+        gap: 8px;
+    }
+    .first {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .links {
+        width: 100%;
+        justify-content: center;
+    }
+    .links ul {
+        margin-right: 0;
+    }
+
+    /* Navbar */
+    .navmenu {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        align-items: center;
+        gap: 15px;
+    }
+    .navmenu .logo {
+        width: 100%;
+        justify-content: center;
+    }
+    .navmenu .nav {
+        width: 100%;
+        justify-content: center;
+    }
+    .navmenu .nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .navmenu .nav ul li {
+        margin-left: 0;
+        font-size: 13px;
+    }
+    .navmenu .scbtn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Hero Banner */
+    .carousel, .ban1 {
+        width: 100%;
+        height: 60vh;
+    }
+    .ban1 h1 {
+        font-size: 32px;
+        margin-left: 20px;
+    }
+    .imgbtn {
+        margin-left: 20px;
+    }
+
+    /* Featured */
+    .featured {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+    .feature-img {
+        width: 100%;
+        padding-left: 0;
+        align-items: center;
+    }
+    .feature-img img {
+        width: 100%;
+        height: auto;
+    }
+    .feature-img span img {
+        margin-right: 0;
+    }
+    .featured .feature-text {
+        width: 100%;
+    }
+    .featured .feature-text h3 {
+        font-size: 26px;
+    }
+    .featured .feature-cards {
+        width: 100%;
+    }
+    .infotable {
+        width: 100%;
+    }
+
+    /* Video Section */
+    .videosection {
+        height: auto;
+        margin-top: 30px;
+    }
+    .videobg {
+        width: 100%;
+        height: auto;
+        padding: 30px 15px;
+    }
+    .videobg h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .videobg img {
+        width: 100%;
+        height: auto;
+    }
+    .videobg a i {
+        top: -150px;
+    }
+
+    /* Stats */
+    .stat {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 30px 20px;
+        gap: 20px;
+    }
+    .stat .statb {
+        width: 100%;
+    }
+    .counter {
+        display: none;
+    }
+
+    /* Space Section */
+    .space {
+        height: auto;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .space .uppersp {
+        flex-direction: column;
+        align-items: center;
+    }
+    .space .uppersp .upperspace-txt {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .space .uppersp .upperspace-txt p,
+    .space .uppersp .upperspace-txt h1 {
+        margin-left: 0;
+    }
+    .space .uppersp .upperspace-txt h1 {
+        font-size: x-large;
+        line-height: 40px;
+    }
+    .uppersp .upperspace-btns {
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 10px;
+    }
+    .uppersp .upperspace-btns button {
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .lowersp {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .spacecard {
+        width: 90%;
+    }
+    .spacecard .innercard {
+        width: 100%;
+    }
+    .spaceimage {
+        width: 90%;
+    }
+    .spaceimage img {
+        width: 100%;
+        height: auto;
+    }
+    .spacetext {
+        width: 90%;
+        padding: 0 10px;
+    }
+    .spacetext p br {
+        display: none;
+    }
+
+    /* Contact */
+    .contactsection {
+        height: auto;
+    }
+    .contactbg {
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .contactbg h1 {
+        font-size: 24px;
+    }
+    .contactbg .innercontact {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .innercontact .map iframe {
+        width: 100%;
+        height: 250px;
+    }
+    .innermap {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .inner {
+        padding: 20px;
+    }
+    .innercontact .form {
+        width: 100%;
+    }
+    .innercontact .form input,
+    .form textarea {
+        width: 100%;
+        margin-left: 0;
+    }
+    .innercontact .form p {
+        margin-left: 0;
+    }
+    .form button {
+        margin-left: 0;
+    }
+
+    /* Footer */
+    footer {
+        width: 100%;
+        text-align: center;
+    }
+}
